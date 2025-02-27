@@ -3,39 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Music</title>
 
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <!--NAvigation header section with logo on the left and 3 links forced to the right using FLEXBOX -->
-    <nav class="top-nav">
-        <div class="header-logo">Header Logo</div>
-        <div class="top-nav-links">
-            <a href="#">Link one</a>
-            <a href="#">Link two</a>
-            <a href="#">Link three</a>
+    <div class="header">
+        <div class="logo">
+            Music
         </div>
-    </nav>
-    <!--Hero section, divided into 2 parts. First part contains main title, subtext, and sign up button stacked. the second part is an image, both control with flexbox -->
-<div class="hero-section">
-    <div class="hero-left">
-        <h1 class="hero-header">This website is amazing</h1>
-        <p class="hero-text">This website has some subtext that goes here under the main title. Its smaller font and the color is lower contrast </p>
-        <button class="hero-button">Sign up</button>
+        <ul class="header-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Legal info</a></li>
+        </ul>
     </div>
-
-    <div class="hero-right">
-        <figure><img src="pic.jpg" alt="lines of HTML code" class="hero-img">
-        </figure>
-
+    <div class="header-body">
+        <div class="body-text">
+            <div class="title">Favorite Genre</div>
+            <div class="text">These are my favorite types of music</div>
+            <button>Sign up</button>
+        </div>
+        <div class="body-img">
+            <img src="music.jpeg" alt="Music is life">
+        </div>
     </div>
-</div>
-<!--THis section will contain four illustrations and subtext under each, the illustrations will be controlled byy flexbox  -->
+    <div class="info-title">Check the music!</div>
+    <div class="info-container">
+        <div class ="img-info">
+            <img src="electronic.webp" alt="Electronic music">
+            <div class ="info-text">Electronic music</div>
+        </div>
+        <div class="img-info">
+            <img src="rock.jpeg" alt="Rock music">
+            <div class ="info-text">Rock music</div>
+        </div>
+        <div class="img-info">
+            <img src="clasic.jpeg" alt="Clasic music">
+            <div class ="info-text">Clasic music</div>
+        </div>
+        <div class="img-info">
+            <img src="rap.webp" alt="Rap music">
+            <div class ="info-text">Rap music</div>
+        </div>
+    </div>
+    <div class="quote-container">
+        <div class="quote">I love Music. Makes me feel alive</div>
+        <div class="quote-author">-ME</div>
+    </div>
+    <div class="call-to-action">
+        <div class="call-to-action-text">
+            <div class="call-title">Call to action! Its time!</div>
+            <div class="call-text">Sign up for some recommendations</div>
+        </div>
+        <button>SIgn up</button>
+    </div>
+    <div class="footer">
+        Copyright © The Odin Project 2025
+    </div>
 </body>
 </html>
 
